@@ -1,0 +1,2 @@
+# Tailwindcss theme color not working
+This bug demonstrates an issue where theme colors defined in `tailwind.config.js` are not applied to elements in CSS files.  The solution involves correctly configuring the `content` array within `tailwind.config.js` to include the files where these classes are being used.
